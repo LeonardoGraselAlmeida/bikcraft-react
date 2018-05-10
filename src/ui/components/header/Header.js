@@ -1,16 +1,19 @@
 import React from 'react';
 
-import logo from '../../assets/images/marca.png';
+import './Header.css';
+import logo from '../../assets/bikcraft.png';
+import { Container, Menu } from '../index';
 
 export default class Header extends React.Component {
   render() {
     return (
-      <header>
-        <div>
-          <a>
+      <header className="header">
+        <Container>
+          <a className="grid-4" href="/">
             <img src={logo} alt="Logo Empresa" />
           </a>
-        </div>
+          <Menu />
+        </Container>
       </header>
     );
   }

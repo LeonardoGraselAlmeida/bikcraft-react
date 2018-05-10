@@ -3,15 +3,16 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './ui/routes';
 
-import { Header } from './ui/components';
+import { Footer, Header } from './ui/components';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="container">
+        <div>
           <Header />
           <Routes />
+          <Footer />
         </div>
       </BrowserRouter>
     );

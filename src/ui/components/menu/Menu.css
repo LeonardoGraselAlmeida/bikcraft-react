@@ -1,0 +1,23 @@
+.menu {
+    text-align: right;
+}
+
+.menu ul li {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.menu ul li a:hover {
+    color: #FFF;
+}
