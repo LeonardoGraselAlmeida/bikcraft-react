@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './ui/routes';
 
-import { Footer, Header } from './ui/components';
+import { Body, Footer, Header } from './ui/components';
 
 class App extends Component {
   render() {
@@ -11,7 +11,9 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Header />
-          <Routes />
+          <Body>
+            <Routes />
+          </Body>
           <Footer />
         </div>
       </BrowserRouter>

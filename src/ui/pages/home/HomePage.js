@@ -4,15 +4,13 @@ import './HomePage.css';
 
 import {
   Blockquote,
+  BoxQualidade,
   CallToAction,
   Container,
   SubTitulo
 } from '../../components';
 import ListaProdutos from './listaProdutos/ListaProdutos';
 import ListaPortfolios from './listaPortfolios/ListaPortfolios';
-import ListaQualidade from './listaQualidade/ListaQualidade';
-
-import imgQualidade from '../../assets/bikcraft-qualidade.png';
 
 export default class HomePage extends React.Component {
   render() {
@@ -56,18 +54,14 @@ export default class HomePage extends React.Component {
           </Container>
         </section>
 
-        <section className="qualidade container">
-          <SubTitulo subTitle="Qualidade" />
-          <img src={imgQualidade} alt="Bikcraft" />
-          <ListaQualidade />
-
+        <BoxQualidade className="qualidade container">
           <CallToAction
             titulo="Sobre"
             descricao="conheça mais a nossa história"
             fundoPreto={true}
             navegacao="/sobre"
           />
-        </section>
+        </BoxQualidade>
       </div>
     );
   }

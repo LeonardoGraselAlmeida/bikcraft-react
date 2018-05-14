@@ -40,23 +40,3 @@
 .portfolio .call p {
   color: #fff;
 }
-
-.qualidade {
-  padding: 60px 0;
-}
-
-.qualidade::after {
-  content: '';
-  width: 634px;
-  height: 83px;
-  display: block;
-  background: url('../../assets/linhas.png');
-  position: absolute;
-  top: 209px;
-  right: 162px;
-  z-index: -1;
-}
-
-.qualidade img {
-  margin: 0 auto;
-}
