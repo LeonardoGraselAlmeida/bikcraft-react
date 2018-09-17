@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import { HomePage, SobrePage } from '../pages';
+import { HomePage, SobrePage, ProdutosPage } from '../pages';
 
 export default class Routes extends React.Component {
   render() {
@@ -9,7 +9,7 @@ export default class Routes extends React.Component {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/sobre" component={SobrePage} />
-        <Route path="/produtos" component={HomePage} />
+        <Route path="/produtos" component={ProdutosPage} />
         <Route path="/portfolio" component={HomePage} />
         <Route path="/contato" component={HomePage} />
         <Route component={HomePage} />
