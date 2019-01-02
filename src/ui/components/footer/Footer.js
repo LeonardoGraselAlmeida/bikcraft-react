@@ -4,9 +4,9 @@ import './Footer.css';
 
 import { Blockquote, Container } from '../index';
 
-import imgFacebook from '../../assets/redes-sociais/facebook.png';
-import imgInstagram from '../../assets/redes-sociais/instagram.png';
-import imgTwitter from '../../assets/redes-sociais/twitter.png';
+import imgFacebook from './../../components/assets/redes-sociais/facebook.png';
+import imgInstagram from './../../components/assets/redes-sociais/instagram.png';
+import imgTwitter from './../../components/assets/redes-sociais/twitter.png';
 
 export default class Footer extends React.Component {
   render() {

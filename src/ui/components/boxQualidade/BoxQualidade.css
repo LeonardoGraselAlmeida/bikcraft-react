@@ -6,7 +6,7 @@
   content: '';
   width: 634px;
   height: 83px;
-  background: url('../../assets/linhas.png');
+  background: url('./../assets/linhas.png');
   position: absolute;
   top: 209px;
   right: 162px;

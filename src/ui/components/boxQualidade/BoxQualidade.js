@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './BoxQualidade.css';
 
-import imgQualidade from '../../assets/bikcraft-qualidade.png';
+import imgQualidade from './../../components/assets/bikcraft-qualidade.png';
 
 import { Container, SubTitulo } from '../index';
 import ListaQualidade from './listaQualidade/ListaQualidade';

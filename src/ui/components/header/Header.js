@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Header.css';
-import logo from '../../assets/bikcraft.png';
+import logo from './../../components/assets/bikcraft.png';
 import { Container, Menu } from '../index';
 
 export default class Header extends React.Component {

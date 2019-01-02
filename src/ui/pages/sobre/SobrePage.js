@@ -1,7 +1,7 @@
 import React from 'react';
 import './SobrePage.css';
 
-import imgEquipeBikcraft from '../../assets/equipe-bikcraft.jpg';
+import imgEquipeBikcraft from './../../components/assets/equipe-bikcraft.jpg';
 
 import { BoxQualidade, Container } from '../../components';
 

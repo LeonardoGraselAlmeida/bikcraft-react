@@ -1,15 +1,15 @@
 import React from 'react';
 import './ProdutosPage.css';
 
-import imgPasseio1 from '../../assets/produtos/bikcraft-passeio-1.jpg';
-import imgPasseio2 from '../../assets/produtos/bikcraft-passeio-2.jpg';
-import imgPasseioIcone from '../../assets/produtos/passeio.png';
-import imgEsporte1 from '../../assets/produtos/bikcraft-esporte-1.jpg';
-import imgEsporte2 from '../../assets/produtos/bikcraft-esporte-2.jpg';
-import imgEsporteIcone from '../../assets/produtos/esporte.png';
-import imgRetro1 from '../../assets/produtos/bikcraft-passeio-1.jpg';
-import imgRetro2 from '../../assets/produtos/bikcraft-passeio-2.jpg';
-import imgRetroIcone from '../../assets/produtos/passeio.png';
+import imgPasseio1 from './../../components/assets/produtos/bikcraft-passeio-1.jpg';
+import imgPasseio2 from './../../components/assets/produtos/bikcraft-passeio-2.jpg';
+import imgPasseioIcone from './../../components/assets/produtos/passeio.png';
+import imgEsporte1 from './../../components/assets/produtos/bikcraft-esporte-1.jpg';
+import imgEsporte2 from './../../components/assets/produtos/bikcraft-esporte-2.jpg';
+import imgEsporteIcone from './../../components/assets/produtos/esporte.png';
+import imgRetro1 from './../../components/assets/produtos/bikcraft-passeio-1.jpg';
+import imgRetro2 from './../../components/assets/produtos/bikcraft-passeio-2.jpg';
+import imgRetroIcone from './../../components/assets/produtos/passeio.png';
 
 import { Container } from '../../components';
 
