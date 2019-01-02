@@ -1,6 +1,8 @@
 import React from 'react';
 import './ProdutosPage.css';
 
+import FormOrcamento from './FormOrcamento/FormOrcamento';
+
 import imgPasseio1 from './../../components/assets/produtos/bikcraft-passeio-1.jpg';
 import imgPasseio2 from './../../components/assets/produtos/bikcraft-passeio-2.jpg';
 import imgPasseioIcone from './../../components/assets/produtos/passeio.png';
@@ -11,7 +13,7 @@ import imgRetro1 from './../../components/assets/produtos/bikcraft-passeio-1.jpg
 import imgRetro2 from './../../components/assets/produtos/bikcraft-passeio-2.jpg';
 import imgRetroIcone from './../../components/assets/produtos/passeio.png';
 
-import { Container } from '../../components';
+import { Container, SubTitulo } from '../../components';
 
 export default class ProdutosPage extends React.Component {
   render() {
@@ -100,7 +102,26 @@ export default class ProdutosPage extends React.Component {
             </ul>
           </div>
         </section>
-        <section className="orcamento" />
+        <section className="orcamento">
+          <Container>
+            <SubTitulo subTitle={'Orçamento'} />
+            <FormOrcamento />
+            <div className="orcamento_dados grid-8">
+              <h3>Dados</h3>
+              <span>+55 21 93223 3232</span>
+              <span className="dados_email">orcamento@bikcraft.com</span>
+              <h3>Monte a sua Bikcraft</h3>
+              <p>Escolha as especificações:</p>
+              <ul>
+                <li>- Cores</li>
+                <li>- Estilos</li>
+                <li>- Medidas</li>
+                <li>- Acessórios</li>
+                <li>- E Outros</li>
+              </ul>
+            </div>
+          </Container>
+        </section>
       </div>
     );
   }
